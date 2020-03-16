@@ -287,7 +287,7 @@ export default class TelegrafInlineMenu {
 
   select(action: string, options: ConstOrContextFunc<SelectOptions>, additionalArgs: SelectActionOptions): TelegrafInlineMenu {
     if ('submenu' in additionalArgs) {
-      throw new Error('Use menu.selectSubmenu() instead!')
+      //throw new Error('Use menu.selectSubmenu() instead!')
     }
 
     const {setFunc, hide} = additionalArgs
